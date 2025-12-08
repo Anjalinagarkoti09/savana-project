@@ -1,0 +1,42 @@
+
+$primary:       #C47A5E !default;   
+$secondary:     #513125 !default;   
+$success:       #999999 !default;
+$info:          #8B8B8B !default;   
+$light:         #FFFFFF !default;
+$warning:       #faf8f7 !default;   
+$danger:        #F4EDE5 !default;
+$dark:  #000;
+
+$font-family-sans-serif: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial !default;
+$headings-font-family: "Cormorant", serif !default;
+
+$font-size-base:              1rem !default;
+$h1-font-size:                $font-size-base * 6.875 !default;
+$h2-font-size:                $font-size-base * 3.938 !default;
+$h3-font-size:                $font-size-base * 2.25 !default;
+$h4-font-size:                $font-size-base * 1.563 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+$container-max-widths: (
+  sm: 540px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+) !default;
+
+
+$navbar-light-color: rgb(81, 49, 37) !default;          
+$navbar-light-active-color: rgb(196, 122, 95) !default; 
+
+
+
+
+$btn-primary-bg: $primary !default;
+$btn-primary-border: $primary !default;
+$btn-primary-color: $light !default;
+$btn-border-radius: .375rem !default;
+
+
+ 
