@@ -1,6 +1,6 @@
-@import './variable'; // your variables (kept as provided)
+@import './variable'; 
 
-// bootstrap imports (keep as you had)
+
 @import "./../../node_modules/bootstrap/scss/functions";
 @import "./../../node_modules/bootstrap/scss/variables";
 @import "./../../node_modules/bootstrap/scss/bootstrap";
@@ -48,6 +48,11 @@ h1, .display-1 {
   position: relative;
   z-index: 2;
 }
+@media (max-width: 1199px) {
+  .nav-bg-left::before {
+    display: none !important;
+  }
+}
 
 
 .hero-btn {
@@ -71,6 +76,15 @@ h1, .display-1 {
     background: black;
   }
 }
+.hero-text {
+  max-width: 480px;            
+  font-size: 0.85rem;           
+  line-height: 1.7;           
+  color: #7a6f69;            
+  font-weight: 400;
+  margin-bottom: 1.6rem !important;
+}
+
 
 .hero-decor {
   position: relative;
@@ -169,13 +183,9 @@ h1, .display-1 {
   backface-visibility: hidden;
 }
 
-
 .hero-content { z-index: 2; position: relative; }
 
 
-
-
-// exposure
 .exposure {
   padding-top: 6rem;   
   padding-bottom: 6rem; }
@@ -212,11 +222,45 @@ h1, .display-1 {
 }
 
 @media (max-width: 767px){
-  .exposure-bg-img{ display:none; } /* hide right bg image on small screens */
+  .exposure-bg-img{ display:none; } 
 }
 
 
 
+.membership-card {
+    background: #C98369;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+
+    .divider {
+        width: 80px;
+        height: 1px;
+        background: #000;
+        opacity: .4;
+    }
+
+    .shape-left {
+        width: 180px;
+        top: -20px;
+        left: -10px;
+        opacity: 1;
+        pointer-events: none;
+    }
+
+    .shape-right {
+        width: 220px;
+        bottom: -20px;
+        right: -10px;
+        opacity: 1;
+        pointer-events: none;
+    }
+
+    .join-btn {
+        border-radius: 5px;
+        font-weight: 600;
+    }
+}
 
 
 p,h1,h2,h3,h4,h5,h6{
@@ -414,7 +458,6 @@ p,h1,h2,h3,h4,h5,h6{
 
 
 // course
-
 .courses .course {
   position: relative;   
   margin-bottom: 150px;
@@ -424,7 +467,6 @@ p,h1,h2,h3,h4,h5,h6{
   max-width: 100%;
   height: auto;
 }
-
 
 .courses .course .box {
   position: absolute;          
@@ -474,26 +516,6 @@ p,h1,h2,h3,h4,h5,h6{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .square-btn {
     border-radius: 0 !important;
 }
@@ -534,29 +556,12 @@ position: absolute;
     object-fit: cover;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.trainer-section .text-info {
+  max-width: 420px;       
+  line-height: 1.65;      
+  font-size: 13px;        
+  color: #6c757d !important; 
+}
 
 
 
@@ -612,35 +617,10 @@ position: absolute;
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 740.98px) {
   .feature-post .feature-img { min-height: 240px; }
   .list-posts .thumb { width: 80px; height: 56px; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .row.gx-3 {
@@ -653,30 +633,30 @@ position: absolute;
 
 .featured-wrapper {
   display: inline-block;
-  padding: 6px;
-  background:#F4EDE5;
   width: 100%;
 }
 
 .featured-image {
-  height: 620px;
+  height: 500px;
   background-size: cover;
   background-position: center;
 }
 
 .featured-body {
   position: relative;
-  background: #F4EDE5;
   padding: 1.5rem;
+   background-color: #F4EDE5;
+}
+.parent {
+    position: relative;
+    overflow: hidden;
 }
 
 .shape-img {
-  position: absolute;
-  bottom: -6px;
-  right: -6px;
-  width: 45%;
-  opacity: 5%;
-  z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
 }
 
 .right-list .list-item {
@@ -716,15 +696,41 @@ position: absolute;
 }
 
 
+html, body {
+  background: #fbf6f1;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after { box-sizing: inherit; }
+
+.blog-section { position: relative; overflow-x: hidden; }
 
 
+.blog-section .featured-body .shape {
+  max-width: 38%;
+  right: 10px;
+  bottom: 10px;
+  max-height: 140px;
+}
 
+@media (max-width: 576px) {
+  .right-list .thumb {
+    width: 72px !important;
+    height: 52px !important;
+    max-width: 100%;
+  }
 
+  .featured-image {
+    width: 100%;
+    background-position: center top;
+    background-size: cover;
+    min-width: 0;
+  }
 
-
-
-
-
+  .list-item { word-break: break-word; }
+}
 
 
 
@@ -812,4 +818,9 @@ position: absolute;
   .site-footer .py-3 { flex-direction: column; gap: .5rem; align-items:flex-start; }
 }
 
-
+@media (max-width: 1100px) {
+  .footer-left-decor,
+  .footer-right-decor {
+    display: none !important;
+  }
+}
