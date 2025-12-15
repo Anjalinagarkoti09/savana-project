@@ -4,24 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.min.css"> 
+    <title>Savana homepage</title>
+    
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
+<link rel="stylesheet" href="./assets/css/style.min.css">
 </head>
 
 <body>
 
     <header>
-
         <nav class="navbar navbar-expand-xl navbar-light py-4 nav-bg-left">
-            <div class="container">
-
+            <div class="container position-relative">
                 <a class="navbar-brand d-flex align-items-center" href="#">
-                    <img src="./assets/images/logo.png" alt="Savana Logo" height="42">
+                    <img src="./assets/images/home/logo.png" alt="Savana Logo" height="42">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
@@ -31,45 +29,33 @@
 
                 <div class="collapse navbar-collapse justify-content-center" id="mainNav">
                     <ul class="navbar-nav align-items-center gap-2">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Pages
-                            </a>
+                                data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
                             <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
                                 <li><a class="dropdown-item" href="#">Page 1</a></li>
                                 <li><a class="dropdown-item" href="#">Page 2</a></li>
                             </ul>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
 
-                <div class="d-none d-xl-flex align-items-center gap-2">
-                    <a href="#"><img src="./assets/images/facebook.png" alt="fb" height="28"></a>
-                    <a href="#"><img src="./assets/images/twitter.png" alt="tw" height="28"></a>
-                    <a href="#"><img src="./assets/images/linkedin.png" alt="li" height="28"></a>
-                    <a href="#"><img src="./assets/images/search (1).png" alt="search" height="28"></a>
+                <div class="d-none d-xl-flex align-items-center gap-2 nav-social">
+                    <a href="#"><img src="./assets/images/home/facebook.png" alt="fb" height="28"></a>
+                    <a href="#"><img src="./assets/images/home/twitter.png" alt="tw" height="28"></a>
+                    <a href="#"><img src="./assets/images/home/linkedin.png" alt="li" height="28"></a>
+                    <a href="#"><img src="./assets/images/home/search (1).png" alt="search" height="28"></a>
                 </div>
-
             </div>
         </nav>
     </header>
+
 
 
     <section class="hero-section bg-warning py-3">
@@ -88,7 +74,8 @@
                     </h1>
 
                     <p class="hero-text mb-4">
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis, pulvinar dapibus leo.
                     </p>
 
                     <div class="d-flex align-items-center gap-4 flex-wrap">
@@ -97,14 +84,14 @@
                         </a>
                         <a href="#" class="hero-contact d-flex align-items-center fw-medium">
                             Contact Us
-                            <img src="./assets/images/phone.png" height="14" class="ms-2">
+                            <img src="./assets/images/home/phone.png" height="14" class="ms-2">
                         </a>
                     </div>
 
                 </div>
 
                 <div class="col-lg-6 text-center">
-                    <img src="./assets/images/Yoga practice-bro 1.png" class="img-fluid w-70 w-md-80"
+                    <img src="./assets/images/home/Yoga practice-bro 1.png" class="img-fluid w-70 w-md-80"
                         alt="Yoga Illustration">
                 </div>
 
@@ -115,243 +102,414 @@
 
 
 
-<section class="hero-decor position-relative py-5 py-md-6 py-xl-8 bg-danger">
-  <img src="./assets/images/Group 1.png"
-       alt="Decorative top left"
-       class="decor-img decor-top d-none d-sm-block img-fluid" />
+    <section class="hero-decor position-relative py-5 py-md-6 py-xl-8 bg-danger">
+        <img src="./assets/images/home/Group 1.png" alt="Decorative top left"
+            class="decor-img decor-top d-none d-sm-block img-fluid" />
 
-  <img src="./assets/images/Group 4.png"
-       alt="Decorative bottom right"
-       class="decor-img decor-bottom d-none d-sm-block img-fluid" />
+        <img src="./assets/images/home/Group 4.png" alt="Decorative bottom right"
+            class="decor-img decor-bottom d-none d-sm-block img-fluid" />
 
-  <div class="container text-center position-relative hero-content" style="z-index:2;">
-    <div class="d-flex justify-content-center align-items-center mb-3">
-      <div class="line-short"></div>
-      <span class="text-uppercase fw-semibold mx-3 small-sub">ABOUT SAVANA</span>
-      <div class="line-short"></div>
-    </div>
-
-    <h2 class="hero-title fw-normal mb-3">
-      Happiness is a decision, not a destination.
-      <br class="d-none d-sm-block">Realize it with us!
-    </h2>
-
-    <p class="mx-auto hero-desc mb-4">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo, vestibulum a ipsum sed, suscipit sodales ex. Vestibulum id varius risus. Fusce tempus tellus sed erat scelerisque venenatis. Donec consequat ultrices quam, vitae dignissim mi sodales non.
-    </p>
-
-    <a href="#" class="btn-learn d-inline-flex align-items-center justify-content-center fw-semibold">
-      Learn More
-      <img src="./assets/images/vector2.png" alt="arrow" class="ms-2" style="width:16px; height:auto;">
-    </a>
-  </div>
-</section>
-
-
-
-
-
-<section class="py-5 bg-light section-wrap">
-  <div class="container py-lg-5">
-    <div class="row gx-5 align-items-start">
-
-      
-      <div class="col-lg-7 mb-4 mb-lg-0">
-      
-        <div class="ratio ratio-4x3 rounded-0 overflow-hidden shadow-sm bg-dark intro-ratio">
-        
-          <div class="bg-cover"
-               style="background-image: url('./assets/images/placeholder (1).png');"></div>
-
-          <a href="https://youtu.be/FdyhENXyIQ4?si=E6RM00d7i2OFwucU" target="_blank"
-             class="play-btn d-inline-flex align-items-center justify-content-center">
-            <span class="play-circle">
-              <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <path d="M11.596 8.697 5.233 12.389c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.394z" fill="#A4573F"/>
-              </svg>
-            </span>
-          </a>
-        </div>
-
-       
-        <div class="card text-light border-0 shadow-sm overlap-card" style="background:#513125; border-radius:6px;">
-          <div class="card-body p-4 p-md-5">
-            <h5 class="mb-3" style="font-family:'Cormorant Garamond', serif;">Expert Trainer</h5>
-            <p class="small mb-3 text-light">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo, vestibulum a ipsum sed, suscipit sodales ex.
-            </p>
-            <a href="#" class="small text-light fw-semibold text-decoration-underline">Join The Course <i class="bi bi-arrow-right-short"></i></a>
-          </div>
-          <img src="./assets/images/images.png" alt="" class="card-decor">
-        </div>
-      </div>
-
-     
-      <div class="col-lg-5">
-        <p class="small text-uppercase text-primary mb-1 d-flex align-items-center">
-          Why Choose Us
-          <span class="ms-2 ms-md-3 divider-line"></span>
-        </p>
-
-        <h2 class="display-6 mb-4 heading-serif" style="color:#513125;">All about yoga, all the time</h2>
-
-        <div class="card mb-3 border-0 shadow-sm right-card comfort" >
-          <div class="card-body p-4 p-md-5">
-            <h5 class="mb-2 heading-serif">Comfort Place</h5>
-            <p class="small mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo, vestibulum a ipsum sed, suscipit sodales ex.</p>
-            <a href="#" class="small fw-semibold text-decoration-underline link-light">Join The Course <i class="bi bi-arrow-right-short"></i></a>
-          </div>
-          <img src="./assets/images/images.png" alt="" class="card-decor">
-        </div>
-
-        <div class="card border-0 shadow-sm right-card affordable">
-          <div class="card-body p-4 p-md-5">
-            <h5 class="mb-2 heading-serif" style="color:#513125;">Affordable Price</h5>
-            <p class="small mb-3 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo, vestibulum a ipsum sed, suscipit sodales ex.</p>
-            <a href="#" class="small fw-semibold text-decoration-underline link-dark">Join The Course <i class="bi bi-arrow-right-short"></i></a>
-          </div>
-          <img src="./assets/images/images2.png" alt="" class="card-decor">
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-    <section class="courses mt-5 mt-md-6 mt-xl-9">
-        <div class="container">
-            <div class="d-flex align-items-center justify-content-center pb-1 pb-lg-3 gap-2">
+        <div class="container text-center position-relative hero-content" style="z-index:2;">
+            <div class="d-flex justify-content-center align-items-center mb-3">
                 <div class="line-short"></div>
-                <p class="text-primary txt-17 fw-semibold">OUR COURSES</p>
+                <span class="text-uppercase fw-semibold mx-3 small-sub">ABOUT SAVANA</span>
                 <div class="line-short"></div>
             </div>
-            <h2 class="display-6 font-family-cormorant text-center lh-1 pb-3 pb-lg-6 ">
-                Let go of stress and anxiety with us
+
+            <h2 class="hero-title fw-normal mb-3">
+                Happiness is a decision, not a destination.
+                <br class="d-none d-sm-block">Realize it with us!
             </h2>
-            <div class="row">
-                <div class="position-relative col-12 col-md-6 col-xl-4 course">
-                    <img src="./assets/images/photo1.png" alt="Image of Yoga" />
-                    <div class="position-absolute box bg-primary text-center text-light py-3 px-5">
-                        <h3 class="font-family-cormorant pb-2">Asana Yoga</h3>
-                        <p class="pb-5">
-                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
-                        </p>
-                        <a href="#" class="text-light">Learn More
-                            <img src="./assets/images/vector2.png" alt="Right Arrow" /></a>
+
+            <p class="mx-auto hero-desc mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo, vestibulum a ipsum sed,
+                suscipit sodales ex. Vestibulum id varius risus. Fusce tempus tellus sed erat scelerisque venenatis.
+                Donec consequat ultrices quam, vitae dignissim mi sodales non.
+            </p>
+
+            <a href="#" class="btn-learn d-inline-flex align-items-center justify-content-center fw-semibold">
+                Learn More
+                <img src="./assets/images/home/vector2.png" alt="arrow" class="ms-2" style="width:16px; height:auto;">
+            </a>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="py-5 bg-light section-wrap">
+        <div class="container py-lg-5">
+            <div class="row gx-5 align-items-start">
+
+
+                <div class="col-lg-7 mb-4 mb-lg-0">
+
+                    <div class="ratio ratio-4x3 rounded-0 overflow-hidden shadow-sm bg-dark intro-ratio">
+
+                        <div class="bg-cover"
+                            style="background-image: url('./assets/images/home/placeholder (1).png');"></div>
+
+                        <a href="https://youtu.be/FdyhENXyIQ4?si=E6RM00d7i2OFwucU" target="_blank"
+                            class="play-btn d-inline-flex align-items-center justify-content-center">
+                            <span class="play-circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 16 16"
+                                    fill="none" aria-hidden="true">
+                                    <path
+                                        d="M11.596 8.697 5.233 12.389c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.394z"
+                                        fill="#A4573F" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <div class="card text-light border-0 shadow-sm overlap-card"
+                        style="background:#513125; border-radius:6px;">
+                        <div class="card-body p-4 p-md-5">
+                            <h5 class="mb-3" style="font-family:'Cormorant Garamond', serif;">Expert Trainer</h5>
+                            <p class="small mb-3 text-light">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo, vestibulum
+                                a ipsum sed, suscipit sodales ex.
+                            </p>
+                            <a href="#" class="small text-light fw-semibold text-decoration-underline">Join The Course
+                                <i class="bi bi-arrow-right-short"></i></a>
+                        </div>
+                        <img src="./assets/images/home/images.png" alt="" class="card-decor">
                     </div>
                 </div>
-                <div class="position-relative col-12 col-md-6 col-xl-4 course">
-                    <img src="./assets/images/photo2.png" alt="Image of Yoga" />
-                    <div class="position-absolute box bg-primary text-center text-light py-3 px-5">
-                        <h3 class="font-family-cormorant pb-2">Nature Yoga</h3>
-                        <p class="pb-5">
-                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
-                        </p>
-                        <a href="#" class="text-light">Learn More
-                            <img src="./assets/images/vector2.png" alt="Right Arrow" /></a>
+
+
+                <div class="col-lg-5">
+                    <p class="small text-uppercase text-primary mb-1 d-flex align-items-center">
+                        Why Choose Us
+                        <span class="ms-2 ms-md-3 divider-line"></span>
+                    </p>
+
+                    <h2 class="display-6 mb-4 heading-serif" style="color:#513125;">All about yoga, all the time</h2>
+
+                    <div class="card mb-3 border-0 shadow-sm right-card comfort">
+                        <div class="card-body p-4 p-md-5">
+                            <h5 class="mb-2 heading-serif">Comfort Place</h5>
+                            <p class="small mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+                                tellus leo, vestibulum a ipsum sed, suscipit sodales ex.</p>
+                            <a href="#" class="small fw-semibold text-decoration-underline link-light">Join The Course
+                                <i class="bi bi-arrow-right-short"></i></a>
+                        </div>
+                        <img src="./assets/images/home/images.png" alt="" class="card-decor">
+                    </div>
+
+                    <div class="card border-0 shadow-sm right-card affordable">
+                        <div class="card-body p-4 p-md-5">
+                            <h5 class="mb-2 heading-serif" style="color:#513125;">Affordable Price</h5>
+                            <p class="small mb-3 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Praesent tellus leo, vestibulum a ipsum sed, suscipit sodales ex.</p>
+                            <a href="#" class="small fw-semibold text-decoration-underline link-dark">Join The Course <i
+                                    class="bi bi-arrow-right-short"></i></a>
+                        </div>
+                        <img src="./assets/images/home/images2.png" alt="" class="card-decor">
                     </div>
                 </div>
-                <div class="position-relative col-12 col-md-6 col-xl-4 course">
-                    <img src="./assets/images/photo3.png" alt="Image of Yoga" />
-                    <div class="position-absolute box bg-primary text-center text-light py-3 px-5">
-                        <h3 class="font-family-cormorant pb-2">Meditation</h3>
-                        <p class="pb-5">
-                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
-                        </p>
-                        <a href="#" class="text-light">Learn More
-                            <img src="./assets/images/vector2.png" alt="Right Arrow" /></a>
-                    </div>
-                </div>
-                <div class="position-relative col-12 col-md-6 col-xl-4 course">
-                    <img src="./assets/images/photo4.png" alt="Image of Yoga" />
-                    <div class="position-absolute box bg-primary text-center text-light py-3 px-5">
-                        <h3 class="font-family-cormorant pb-2">Body Relax</h3>
-                        <p class="pb-5">
-                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
-                        </p>
-                        <a href="#" class="text-light">Learn More
-                            <img src="./assets/images/vector2.png" alt="Right Arrow" /></a>
-                    </div>
-                </div>
-                <div class="position-relative col-12 col-md-6 col-xl-4 course">
-                    <img src="./assets/images/photo5.png" alt="Image of Yoga" />
-                    <div class="position-absolute box bg-primary text-center text-light py-3 px-5">
-                        <h3 class="font-family-cormorant pb-2">Diet Yoga</h3>
-                        <p class="pb-5">
-                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
-                        </p>
-                        <a href="#" class="text-light">Learn More
-                            <img src="./assets/images/vector2.png" alt="Right Arrow" /></a>
-                    </div>
-                </div>
-                <div class="position-relative col-12 col-md-6 col-xl-4 course">
-                    <img src="./assets/images/photo6.png" alt="Image of Yoga" />
-                    <div class="position-absolute box bg-primary text-center text-light py-3 px-5">
-                        <h3 class="font-family-cormorant pb-2">Young Yoga</h3>
-                        <p class="pb-5">
-                            Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
-                        </p>
-                        <a href="#" class="text-light">Learn More
-                            <img src="./assets/images/vector2.png" alt="Right Arrow" /></a>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
 
 
 
-    <section class="exposure position-relative overflow-hidden ">
 
-        <img src="./assets/images/Group 9.png" class="exposure-bg-img d-none d-lg-block " alt="Right Decorative">
+
+
+
+
+
+
+
+
+
+
+
+<section class="py-5" style="background:#fffaf4;">
+  <div class="container">
+
+
+    <div class="text-center mb-5">
+      <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+        <span style="width:50px;height:1px;background:#b96851;"></span>
+        <span class="text-primary fw-semibold small">OUR COURSES</span>
+        <span style="width:50px;height:1px;background:#b96851;"></span>
+      </div>
+
+      <h2 class="display-6 font-family-cormorant">
+        Let go of stress and anxiety with us
+      </h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="position-relative text-center">
+
+
+          <img src="./assets/images/home/photo1.png"
+               class="img-fluid w-100">
+
+          <div class="bg-primary text-white mx-auto p-4 position-relative"
+               style="width:85%; margin-top:-70px;">
+            <h5 class="font-family-cormorant">Asana Yoga</h5>
+            <p class="small mb-3">
+              Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
+            </p>
+            <a href="#" class="text-white text-decoration-none small fw-semibold">
+              Learn More
+              <img src="./assets/images/home/vector2.png" width="14">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+   
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="position-relative text-center">
+          <img src="./assets/images/home/photo2.png" class="img-fluid w-100">
+          <div class="bg-primary text-white mx-auto p-4 position-relative"
+               style="width:85%; margin-top:-70px;">
+            <h5 class="font-family-cormorant">Nature Yoga</h5>
+            <p class="small mb-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit.</p>
+            <a href="#" class="text-white text-decoration-none small fw-semibold">
+              Learn More <img src="./assets/images/home/vector2.png" width="14">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="position-relative text-center">
+          <img src="./assets/images/home/photo3.png" class="img-fluid w-100">
+          <div class="bg-primary text-white mx-auto p-4 position-relative"
+               style="width:85%; margin-top:-70px;">
+            <h5 class="font-family-cormorant">Meditation</h5>
+            <p class="small mb-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit.</p>
+            <a href="#" class="text-white text-decoration-none small fw-semibold">
+              Learn More <img src="./assets/images/home/vector2.png" width="14">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- same pattern for remaining cards -->
+  <div class="col-12 col-md-6 col-xl-4">
+        <div class="position-relative text-center">
+          <img src="./assets/images/home/photo2.png" class="img-fluid w-100">
+          <div class="bg-primary text-white mx-auto p-4 position-relative"
+               style="width:85%; margin-top:-70px;">
+            <h5 class="font-family-cormorant">Nature Yoga</h5>
+            <p class="small mb-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit.</p>
+            <a href="#" class="text-white text-decoration-none small fw-semibold">
+              Learn More <img src="./assets/images/home/vector2.png" width="14">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="position-relative text-center">
+          <img src="./assets/images/home/photo3.png" class="img-fluid w-100">
+          <div class="bg-primary text-white mx-auto p-4 position-relative"
+               style="width:85%; margin-top:-70px;">
+            <h5 class="font-family-cormorant">Meditation</h5>
+            <p class="small mb-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit.</p>
+            <a href="#" class="text-white text-decoration-none small fw-semibold">
+              Learn More <img src="./assets/images/home/vector2.png" width="14">
+            </a>
+          </div>
+        </div>
+      </div>
+
+ <div class="col-12 col-md-6 col-xl-4">
+        <div class="position-relative text-center">
+          <img src="./assets/images/home/photo2.png" class="img-fluid w-100">
+          <div class="bg-primary text-white mx-auto p-4 position-relative"
+               style="width:85%; margin-top:-70px;">
+            <h5 class="font-family-cormorant">Nature Yoga</h5>
+            <p class="small mb-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit.</p>
+            <a href="#" class="text-white text-decoration-none small fw-semibold">
+              Learn More <img src="./assets/images/home/vector2.png" width="14">
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+    <section class="position-relative py-5 overflow-hidden" style="background:#fffaf5;">
+
+        <!-- RIGHT DECOR -->
+        <img src="./assets/images/home/Group 9.png"
+            class="d-none d-lg-block position-absolute top-50 end-0 translate-middle-y"
+            style="width:280px; opacity:.7; pointer-events:none;" alt="decor">
 
         <div class="container text-center">
 
-            <div class="row justify-content-center g-4 ">
+            <!-- ROW 1 -->
+            <div class="row justify-content-center mb-5">
 
-                <div class="col-6 col-lg-4">
-                    <img src="./assets/images/number1.png" class="img-fluid mb-3" style="width:56px;">
-                    <p class="exposure-number mb-1">950+</p>
-                    <p class="text-muted small">Happy Clients</p>
+                <div class="col-6 col-lg-4 mb-4">
+                    <img src="./assets/images/home/number1.png" class="mb-3" style="width:48px;">
+                    <h3 class="mb-1" style="font-family:'Cormorant Garamond',serif;
+                   font-size:3.8rem;
+                   font-weight:500;
+                   color:#513125;
+                   line-height:1;">
+                        950+
+                    </h3>
+                    <p class="small text-muted mb-0">Happy Clients</p>
                 </div>
 
-                <div class="col-6 col-lg-4">
-                    <img src="./assets/images/number2.png" class="img-fluid mb-3" style="width:56px;">
-                    <p class="exposure-number mb-1">117+</p>
-                    <p class="text-muted small">Expert Trainers</p>
+                <div class="col-6 col-lg-4 mb-4">
+                    <img src="./assets/images/home/number2.png" class="mb-3" style="width:48px;">
+                    <h3 class="mb-1" style="font-family:'Cormorant Garamond',serif;
+                   font-size:3.8rem;
+                   font-weight:500;
+                   color:#513125;
+                   line-height:1;">
+                        117+
+                    </h3>
+                    <p class="small text-muted mb-0">Expert Trainers</p>
                 </div>
 
-                <div class="col-6 col-lg-4">
-                    <img src="./assets/images/number3.png" class="img-fluid mb-3" style="width:56px;">
-                    <p class="exposure-number mb-1">950+</p>
-                    <p class="text-muted small">Positive Reviews</p>
+                <div class="col-6 col-lg-4 mb-4">
+                    <img src="./assets/images/home/number3.png" class="mb-3" style="width:48px;">
+                    <h3 class="mb-1" style="font-family:'Cormorant Garamond',serif;
+                   font-size:3.8rem;
+                   font-weight:500;
+                   color:#513125;
+                   line-height:1;">
+                        950+
+                    </h3>
+                    <p class="small text-muted mb-0">Positive Reviews</p>
                 </div>
 
-                <div class="col-6 col-lg-6">
-                    <img src="./assets/images/number4.png" class="img-fluid mb-3" style="width:56px;">
-                    <p class="exposure-number mb-1">15+</p>
-                    <p class="text-muted small">Years of Experience</p>
+            </div>
+
+            <!-- ROW 2 -->
+            <div class="row justify-content-center">
+
+                <div class="col-6 col-lg-4 mb-4">
+                    <img src="./assets/images/home/number4.png" class="mb-3" style="width:48px;">
+                    <h3 class="mb-1" style="font-family:'Cormorant Garamond',serif;
+                   font-size:3.8rem;
+                   font-weight:500;
+                   color:#513125;
+                   line-height:1;">
+                        15+
+                    </h3>
+                    <p class="small text-muted mb-0">Years of Experience</p>
                 </div>
 
-                <div class="col-6 col-lg-6">
-                    <img src="./assets/images/number5.png" class="img-fluid mb-3" style="width:56px;">
-                    <p class="exposure-number mb-1">950+</p>
-                    <p class="text-muted small">Company Branch</p>
+                <div class="col-6 col-lg-4 mb-4">
+                    <img src="./assets/images/home/number5.png" class="mb-3" style="width:48px;">
+                    <h3 class="mb-1" style="font-family:'Cormorant Garamond',serif;
+                   font-size:3.8rem;
+                   font-weight:500;
+                   color:#513125;
+                   line-height:1;">
+                        950+
+                    </h3>
+                    <p class="small text-muted mb-0">Company Branch</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="py-2 trainer-section">
+
+        <div class="container py-2">
+
+            <div class="row align-items-start justify-content-between">
+
+                <div class="col-lg-5">
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="txt-17 fw-semibold me-3 text-primary" style="letter-spacing:2px;">
+                            OUR TRAINER
+                        </span>
+                        <span style="height:2px; width:70px; background:#000; display:inline-block;"></span>
+                    </div>
+
+                    <h2 class="mb-4 font-family-cormorant text-secondary" style="line-height:1.3; font-size:47px;">
+                        Talented trainers from all over the world
+                    </h2>
+
+                    <p class="text-info mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo,
+                        vestibulum a ipsum sed, suscipit sodales ex.
+                    </p>
+
+
+                    <a href="#" class="btn bg-primary text-light px-4 py-2 square-btn">
+                        View More
+                        <img class="ps-1" src="./assets/images/home/vector2.png" alt="arrow">
+                    </a>
+                </div>
+
+               
+                <div class="col-lg-7">
+                    <div class="row g-4">
+
+               
+                        <div class="col-md-6">
+                            <div class="trainer-card p-4 text-center">
+                                <div class="trainer-bg-shape"></div>
+
+                                <div class="trainer-img-wrap">
+                                    <img src="./assets/images/home/female.png" alt="">
+                                </div>
+
+                                <h5 class="mt-3 font-family-cormorant text-secondary">Jenny Owen</h5>
+                                <p class="text-success mb-3">Trainer</p>
+
+                                <div class="d-flex justify-content-center gap-1">
+                                    <a href="#"><img src="./assets/images/home/facebook.png" width="32"></a>
+                                    <a href="#"><img src="./assets/images/home/twitter.png" width="32"></a>
+                                    <a href="#"><img src="./assets/images/home/linkedin.png" width="32"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                 
+                        <div class="col-md-6">
+                            <div class="trainer-card p-4 text-center">
+                                <div class="trainer-bg-shape"></div>
+
+                                <div class="trainer-img-wrap">
+                                    <img src="./assets/images/home/male.png" alt="">
+                                </div>
+
+                                <h5 class="mt-3 font-family-cormorant text-secondary">Robin Falco</h5>
+                                <p class="text-success mb-3">Trainer</p>
+
+                                <div class="d-flex justify-content-center gap-1">
+                                    <a href="#"><img src="./assets/images/home/facebook.png" width="32"></a>
+                                    <a href="#"><img src="./assets/images/home/twitter.png" width="32"></a>
+                                    <a href="#"><img src="./assets/images/home/linkedin.png" width="32"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
@@ -360,152 +518,56 @@
 
 
 
+    <section class="membership-section py-5 mt-5"
+        style="background: url('./assets/images/home/background.png') center/cover no-repeat; padding:90px 0;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
 
+                  
+                    <div class="membership-card p-5 text-center position-relative overflow-hidden bg-primary">
 
-      <section class="py-2 trainer-section">
+                     
+                        <img src="./assets/images/home/Group 11.png" alt="" class="shape-left position-absolute">
 
-    <div class="container py-2">
+                     
+                        <img src="./assets/images/home/Group 12.png" alt="" class="shape-right position-absolute">
 
-        <div class="row align-items-start justify-content-between">
-          
-            <div class="col-lg-5">
-                <div class="d-flex align-items-center mb-3">
-                    <span class="txt-17 fw-semibold me-3 text-primary" style="letter-spacing:2px;">
-                        OUR TRAINER
-                    </span>
-                    <span style="height:2px; width:70px; background:#000; display:inline-block;"></span>
-                </div>
-
-                <h2 class="mb-4 font-family-cormorant text-secondary" style="line-height:1.3; font-size:47px;">
-                    Talented trainers from <br> all over the world
-                </h2>
-
-                <p class="text-info mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo,
-                    vestibulum a ipsum sed, suscipit sodales ex.
-                </p>
-
-              
-                <a href="#" class="btn bg-primary text-light px-4 py-2 square-btn">
-                    View More
-                    <img class="ps-1" src="./assets/images/vector2.png" alt="arrow">
-                </a>
-            </div>
-
-            <!-- RIGHT TRAINER CARDS -->
-            <div class="col-lg-7">
-                <div class="row g-4">
-
-                    <!-- CARD 1 -->
-                    <div class="col-md-6">
-                        <div class="trainer-card p-4 text-center">
-                            <div class="trainer-bg-shape"></div>
-
-                            <div class="trainer-img-wrap">
-                                <img src="./assets/images/female.png" alt="">
-                            </div>
-
-                            <h5 class="mt-3 font-family-cormorant text-secondary">Jenny Owen</h5>
-                            <p class="text-success mb-3">Trainer</p>
-
-                            <div class="d-flex justify-content-center gap-1">
-                                <a href="#"><img src="./assets/images/facebook.png" width="32"></a>
-                                <a href="#"><img src="./assets/images/twitter.png" width="32"></a>
-                                <a href="#"><img src="./assets/images/linkedin.png" width="32"></a>
-                            </div>
+                      
+                        <div class="d-flex justify-content-center align-items-center mb-3">
+                            <span class="divider"></span>
+                            <span class="mx-3 text-light txt-17 fw-semibold">MEMBERSHIP</span>
+                            <span class="divider"></span>
                         </div>
-                    </div>
 
-                    <!-- CARD 2 -->
-                    <div class="col-md-6">
-                        <div class="trainer-card p-4 text-center">
-                            <div class="trainer-bg-shape"></div>
+                   
+                        <h2 class="text-light mb-3 font-family-cormorant" style="font-size:40px; font-weight:500;">
+                            Become Savana Member
+                        </h2>
 
-                            <div class="trainer-img-wrap">
-                                <img src="./assets/images/male.png" alt="">
-                            </div>
+                   
+                        <p class="text-light px-lg-5 mb-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo,
+                            vestibulum a ipsum sed, suscipit sodales ex. Vestibulum id varius risus. Fusce tempus tellus
+                            sed.
+                        </p>
 
-                            <h5 class="mt-3 font-family-cormorant text-secondary">Robin Falco</h5>
-                            <p class="text-success mb-3">Trainer</p>
-
-                            <div class="d-flex justify-content-center gap-1">
-                                <a href="#"><img src="./assets/images/facebook.png" width="32"></a>
-                                <a href="#"><img src="./assets/images/twitter.png" width="32"></a>
-                                <a href="#"><img src="./assets/images/linkedin.png" width="32"></a>
-                            </div>
-                        </div>
+                  
+                        <a href="#" class="btn join-btn bg-light text-primary py-1 px-4">
+                            Join Now
+                            <img class="ps-1" src="./assets/images/home/arrow.png" alt="Right Arrow">
+                        </a>
                     </div>
 
                 </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
- 
-   <section class="membership-section py-5 mt-5"
-    style="background: url('./assets/images/background.png') center/cover no-repeat; padding:90px 0;">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-
-                <!-- MAIN CARD -->
-                <div class="membership-card p-5 text-center position-relative overflow-hidden bg-primary">
-
-                    <!-- LEFT DECOR SHAPE -->
-                    <img src="./assets/images/Group 11.png" alt=""
-                        class="shape-left position-absolute">
-
-                    <!-- RIGHT DECOR SHAPE -->
-                    <img src="./assets/images/Group 12.png" alt=""
-                        class="shape-right position-absolute">
-
-                    <!-- TOP HEADING -->
-                    <div class="d-flex justify-content-center align-items-center mb-3">
-                        <span class="divider"></span>
-                        <span class="mx-3 text-light txt-17 fw-semibold">MEMBERSHIP</span>
-                        <span class="divider"></span>
-                    </div>
-
-                    <!-- TITLE -->
-                    <h2 class="text-light mb-3 font-family-cormorant"
-                        style="font-size:40px; font-weight:500;">
-                        Become Savana Member
-                    </h2>
-
-                    <!-- PARAGRAPH -->
-                    <p class="text-light px-lg-5 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo,
-                        vestibulum a ipsum sed, suscipit sodales ex. Vestibulum id varius risus. Fusce tempus tellus sed.
-                    </p>
-
-                    <!-- BUTTON -->
-                    <a href="#" class="btn join-btn bg-light text-primary py-1 px-4">
-                        Join Now
-                        <img class="ps-1" src="./assets/images/arrow.png" alt="Right Arrow">
-                    </a>
-                </div>
-
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
 
-    
+
     <section class="testimonials-section py-2 mt-5">
         <div class="container py-lg-5">
 
@@ -526,23 +588,23 @@
                 </h2>
 
             </div>
-            
+
 
             <div class="d-flex justify-content-center align-items-stretch position-relative">
                 <div class="row g-4 w-100">
 
-                  
+
                     <div class="col-12 col-md-6 col-lg-4 d-flex">
                         <div class="card testimonial-card bg-primary text-white w-100 shadow-sm border-0 position-relative"
                             style="border-radius:0; overflow:hidden;">
 
-                          
-                            <img src="./assets/images/curved2.png" class="curve-img" alt="shape">
+
+                            <img src="./assets/images/home/curved2.png" class="curve-img" alt="shape">
 
                             <div class="card-body p-2 p-md-4 position-relative" style="border-radius:0;">
                                 <div class="d-flex justify-content-between align-items-center mb-3">
                                     <div class="d-flex align-items-center">
-                                        <img src="./assets/images/person1.png" alt="Jane Foster"
+                                        <img src="./assets/images/home/person1.png" alt="Jane Foster"
                                             class="testimonial-avatar me-3"
                                             style="width: 50px; height: 50px; object-fit: cover; border-radius:0;">
                                         <div>
@@ -566,18 +628,18 @@
                     </div>
 
 
-              
+
                     <div class="col-12 col-md-6 col-lg-4 d-flex">
                         <div class="card testimonial-card bg-secondary text-white w-100 shadow-lg border-0 position-relative"
                             style="border-radius:0; overflow:hidden;">
 
-                         
-                            <img src="./assets/images/curved2.png" class="curve-img" alt="shape">
+
+                            <img src="./assets/images/home/curved2.png" class="curve-img" alt="shape">
 
                             <div class="card-body p-3 p-md-4 position-relative" style="border-radius:0;">
                                 <div class="d-flex justify-content-between align-items-center mb-3">
                                     <div class="d-flex align-items-center">
-                                        <img src="./assets/images/person2.png" alt="Nina Aguero"
+                                        <img src="./assets/images/home/person2.png" alt="Nina Aguero"
                                             class="testimonial-avatar me-3"
                                             style="width: 50px; height: 50px; object-fit: cover; border-radius:0;">
                                         <div>
@@ -599,18 +661,18 @@
                             </div>
                         </div>
                     </div>
-                  
+
                     <div class="col-12 col-md-6 col-lg-4 d-flex">
                         <div class="card testimonial-card bg-danger w-100 shadow-sm border-0 position-relative"
                             style="border-radius:0; overflow:hidden;">
 
-                          
-                            <img src="./assets/images/Group 6.png" class="curve-img" alt="shape">
+
+                            <img src="./assets/images/home/Group 6.png" class="curve-img" alt="shape">
 
                             <div class="card-body p-2 p-md-4 position-relative" style="border-radius:0;">
                                 <div class="d-flex justify-content-between align-items-center mb-3">
                                     <div class="d-flex align-items-center">
-                                        <img src="./assets/images/person3.png" alt="Samantha Kirk"
+                                        <img src="./assets/images/home/person3.png" alt="Samantha Kirk"
                                             class="testimonial-avatar me-3"
                                             style="width: 50px; height: 50px; object-fit: cover; border-radius:0;">
 
@@ -644,105 +706,119 @@
 
 
 
+    <section class="pt-0 pb-3 position-relative overflow-hidden">
+        <div class="container py-4 py-lg-5">
 
-
-    <section class="pt-0 pb-3">
-        <div class="container py-4 py-lg-7">
-            <div class="text-center mb-5 mb-lg-6">
-
+            <div class="text-center mb-5">
                 <div class="d-flex align-items-center justify-content-center gap-3 mb-2">
-                    <span class="blog-line"></span>
-
-                    <p class="txt-17 mb-0 text-primary fw-semibold">OUR BLOG</p>
-
-                    <span class="blog-line"></span>
+                    <span class="d-inline-block" style="width:90px;height:1.5px;background:#4a403a;opacity:.7;"></span>
+                    <p class="mb-0 text-primary fw-semibold small">OUR BLOG</p>
+                    <span class="d-inline-block" style="width:90px;height:1.5px;background:#4a403a;opacity:.7;"></span>
                 </div>
 
-                <h2 class="display-6 font-family-cormorant text-secondary mb-2">
+                <h2 class="display-6 text-secondary mb-2">
                     Some tips & tricks about yoga
                 </h2>
 
-                <p class="small-2 text-info mx-auto" style="max-width: 600px;">
+                <p class="small text-info mx-auto" style="max-width:600px;">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo,
                     vestibulum a ipsum sed, suscipit sodales ex.
                 </p>
-
             </div>
 
+            <div class="row gx-3">
 
-            <div class="row gx-3 ">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="featured-wrapper">
-                        <div class="card featured-card border-0 rounded-0 overflow-hidden shadow-sm">
+                    <div class="card border-0 rounded-0 shadow-sm overflow-hidden h-100">
 
-                            <div class="featured-image p-4" style=" background-image:url('./assets/images/yoga.png');">
-                            </div>
 
-                            <div class="card-body featured-body">
-                                <img class="shape-img" src="./assets/images/blog.png">
+                        <div class="w-100" style="
+              height:500px;
+              background:url('./assets/images/home/yoga.png') center/cover no-repeat;
+            ">
+                        </div>
 
-                                <div class="featured-content">
-                                    <p class="small mb-1 text-primary">14 January 2022 | Yoga, Meditation</p>
 
-                                    <h4 class="font-family-cormorant text-secondary mb-2">
-                                        10 meditation and mindfulness retreats in the UK
-                                    </h4>
+                        <div class="card-body position-relative p-4" style="background:#F4EDE5;">
 
-                                    <p class="small mb-3 text-info">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo,
-                                        vestibulum a ipsum sed.
-                                    </p>
 
-                                    <a href="#" class="btn small text-primary thick-underline">
-                                        Read More ➜
-                                    </a>
-                                </div>
+                            <img src="./assets/images/home/blog.png" class="position-absolute bottom-0 end-0"
+                                style="max-width:38%; max-height:140px;">
 
-                            </div>
+                            <p class="small mb-1 text-primary">
+                                14 January 2022 | Yoga, Meditation
+                            </p>
+
+                            <h4 class="text-secondary mb-2">
+                                10 meditation and mindfulness retreats in the UK
+                            </h4>
+
+                            <p class="small text-info mb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus leo,
+                                vestibulum a ipsum sed.
+                            </p>
+
+                            <a href="#" class="btn p-0 text-primary text-decoration-underline fw-semibold">
+                                Read More ➜
+                            </a>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="d-flex flex-column h-100  right-list">
 
-                        <div class="list-item d-flex mb-3">
-                            <img src="./assets/images/yoga1.png" class="thumb me-3">
+                <div class="col-lg-5">
+                    <div class="d-flex flex-column h-100">
+
+
+                        <div class="d-flex mb-3">
+                            <img src="./assets/images/home/yoga1.png" class="me-3 rounded"
+                                style="width:250px;height:166px;object-fit:cover;">
                             <div>
-                                <h6 class="mb-1 font-family-cormorant text-secondary fs-5">
+                                <h6 class="mb-1 text-secondary fs-5">
                                     The best teachers on to keep you calm in lockdown
                                 </h6>
-                                <p class="small mb-0 text-primary fs-8">14 January 2022 | Yoga, Meditation</p>
+                                <p class="small mb-0 text-primary">
+                                    14 January 2022 | Yoga, Meditation
+                                </p>
                             </div>
                         </div>
 
-                        <div class="list-item d-flex mb-3">
-                            <img src="./assets/images/yoga2.png" class="thumb me-3">
+                        <div class="d-flex mb-3">
+                            <img src="./assets/images/home/yoga2.png" class="me-3 rounded"
+                                style="width:250px;height:166px;object-fit:cover;">
                             <div>
-                                <h6 class="mb-1 font-family-cormorant text-secondary fs-5">
+                                <h6 class="mb-1 text-secondary fs-5">
                                     I went to a puppy yoga class and this is what it was
                                 </h6>
-                                <p class="small mb-0 text-primary fs-8">14 January 2022 | Yoga, Meditation</p>
+                                <p class="small mb-0 text-primary">
+                                    14 January 2022 | Yoga, Meditation
+                                </p>
                             </div>
                         </div>
 
-                        <div class="list-item d-flex mb-3">
-                            <img src="./assets/images/yoga3.png" class="thumb me-3">
+                        <div class="d-flex mb-3">
+                            <img src="./assets/images/home/yoga3.png" class="me-3 rounded"
+                                style="width:250px;height:166px;object-fit:cover;">
                             <div>
-                                <h6 class="mb-1 font-family-cormorant text-secondary fs-5">
+                                <h6 class="mb-1 text-secondary fs-5">
                                     8 best kids yoga mats to encourage your little yoga
                                 </h6>
-                                <p class="small mb-0 text-primary fs-8">14 January 2022 | Yoga, Meditation</p>
+                                <p class="small mb-0 text-primary">
+                                    14 January 2022 | Yoga, Meditation
+                                </p>
                             </div>
                         </div>
 
-                        <div class="list-item d-flex">
-                            <img src="./assets/images/yoga4.png" class="thumb me-3">
+                        <div class="d-flex">
+                            <img src="./assets/images/home/yoga4.png" class="me-3 rounded"
+                                style="width:250px;height:166px;object-fit:cover;">
                             <div>
-                                <h6 class="mb-1 font-family-cormorant text-secondary fs-5">
+                                <h6 class="mb-1 text-secondary fs-5">
                                     Things you only know if you're brand new to yoga
                                 </h6>
-                                <p class="small mb-0 text-primary fs-9">14 January 2022 | Yoga, Meditation</p>
+                                <p class="small mb-0 text-primary">
+                                    14 January 2022 | Yoga, Meditation
+                                </p>
                             </div>
                         </div>
 
@@ -756,87 +832,101 @@
 
 
 
- <footer class="site-footer position-relative">
- 
-  <img src="./assets/images/XMLID_4_ (1).png" alt="" class="footer-left-decor" aria-hidden="true">
 
 
-  <img src="./assets/images/XMLID_4_ (2).png" alt="" class="footer-right-decor" aria-hidden="true">
 
-  <div class="container pt-4 pt-lg-5 pb-3">
-    <div class="row g-5 pb-4 align-items-start">
+    <footer class="position-relative text-white overflow-hidden mt-5" style="background:#513125;">
 
-  
-      <div class="col-12 col-xl-3 text-light">
-        <div class="logo-wrap d-inline-block position-relative mb-3">
-          <a href="index.html" class="d-inline-block">
-            <img src="./assets/images/logo2.png" alt="Savana Logo" class="img-fluid" />
-          </a>
+
+        <img src="./assets/images/home/XMLID_4_ (1).png"
+            class="position-absolute start-0 top-50 translate-middle-y d-none d-xl-block"
+            style="width:100px; pointer-events:none;" aria-hidden="true">
+
+
+        <img src="./assets/images/home/XMLID_4_ (2).png" class="position-absolute end-0 bottom-0 d-none d-xl-block"
+            style="width:190px; pointer-events:none;" aria-hidden="true">
+
+        <div class="container pt-4 pt-lg-5 pb-3">
+            <div class="row g-5 pb-4">
+
+
+                <div class="col-12 col-xl-3">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <img src="./assets/images/home/logo2.png" class="img-fluid" style="max-width:180px;">
+                    </a>
+                    <p class="small mb-0 opacity-75">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+                        tellus leo, vestibulum a ipsum sed.
+                    </p>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <h3 class="fs-5 mb-3">Get In Touch</h3>
+                    <ul class="list-unstyled d-flex flex-column gap-3 small mb-0">
+                        <li class="d-flex align-items-start gap-2">
+                            <img src="./assets/images/home/location.png" width="20">
+                            <span>140 Home Street, Plano</span>
+                        </li>
+                        <li class="d-flex align-items-start gap-2">
+                            <img src="./assets/images/home/email.png" width="20">
+                            <span>savana@mail.com</span>
+                        </li>
+                        <li class="d-flex align-items-start gap-2">
+                            <img src="./assets/images/home/call.png" width="20">
+                            <span>+1 (234) 567 890</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <h3 class="fs-5 mb-3">Quicklinks</h3>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small mb-0">
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Home</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">About</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Courses</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-xl-3">
+                    <h3 class="fs-5 mb-3 text-white">Newsletter</h3>
+
+                    <div class="input-group">
+
+
+                        <input type="email" class="form-control border-0 rounded-0 py-2 px-3" placeholder="Email"
+                            style="font-size:14px;">
+
+                        <button class="btn rounded-0 d-flex align-items-center justify-content-center px-3"
+                            style="background:#c47a5e;" type="button">
+                            <img src="./assets/images/home/vector2.png" width="16" alt="">
+                        </button>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <hr class="border-light opacity-25 my-3">
+
+
+            <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-2">
+                <p class="m-0 small opacity-75">
+                    Copyright © 2021 ASK Project
+                </p>
+
+                <div class="d-flex gap-2">
+                    <a href="#"><img src="./assets/images/home/facebook.png" width="28"></a>
+                    <a href="#"><img src="./assets/images/home/twitter.png" width="28"></a>
+                    <a href="#"><img src="./assets/images/home/linkedin.png" width="28"></a>
+                </div>
+            </div>
+
         </div>
-        <p class="fw-light small mb-0">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-          tellus leo, vestibulum a ipsum sed.
-        </p>
-      </div>
-
-     
-      <div class="col-12 col-md-6 col-xl-3">
-        <h3 class="fs-5 text-light pb-2 font-family-cormorant">Get In Touch</h3>
-        <ul class="list-unstyled d-flex flex-column gap-3 text-light small mb-0">
-          <li class="d-flex align-items-start">
-            <img src="./assets/images/location.png" alt="" style="width:20px;height:auto;margin-right:10px;">
-            <span>140 Home Street, Plano</span>
-          </li>
-          <li class="d-flex align-items-start">
-            <img src="./assets/images/email.png" alt="" style="width:20px;height:auto;margin-right:10px;">
-            <span>savana@mail.com</span>
-          </li>
-          <li class="d-flex align-items-start">
-            <img src="./assets/images/call.png" alt="" style="width:20px;height:auto;margin-right:10px;">
-            <span>+1 (234) 567 890</span>
-          </li>
-        </ul>
-      </div>
-
-     
-      <div class="col-12 col-md-6 col-xl-3">
-        <h3 class="fs-5 text-light pb-2 font-family-cormorant">Quicklinks</h3>
-        <ul class="list-unstyled d-flex flex-column gap-2 small mb-0">
-          <li><a href="#" class="text-light fw-light text-decoration-none">Home</a></li>
-          <li><a href="#" class="text-light fw-light text-decoration-none">About</a></li>
-          <li><a href="#" class="text-light fw-light text-decoration-none">Courses</a></li>
-          <li><a href="#" class="text-light fw-light text-decoration-none">FAQs</a></li>
-        </ul>
-      </div>
-
-      <div class="col-12 col-xl-3">
-        <h3 class="fs-5 text-light pb-2 font-family-cormorant">Newsletter</h3>
-        <div class="input-group mb-3">
-          <input type="email" class="form-control form-control-sm bg-warning " placeholder="Email" aria-label="Email" />
-          <button class="btn btn-outline-light btn-sm bg-primary" type="button" id="button-addon2">
-            <img src="./assets/images/vector2.png" alt="Submit" style="width:18px;height:auto;">
-          </button>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="border-top border-2 border-light opacity-25"></div>
-
-    <div class="py-3 d-flex align-items-center justify-content-between">
-      <p class="m-0 text-light fw-light small">Copyright &copy; 2021 ASK Project</p>
-
-      <div class="d-flex gap-2">
-        <a href="#" class="d-inline-block"><img src="./assets/images/facebook.png" alt="Facebook" style="width:28px;height:auto;"></a>
-        <a href="#" class="d-inline-block"><img src="./assets/images/twitter.png" alt="Twitter" style="width:28px;height:auto;"></a>
-        <a href="#" class="d-inline-block"><img src="./assets/images/linkedin.png" alt="LinkedIn" style="width:28px;height:auto;"></a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-
+    </footer>
 
 
 

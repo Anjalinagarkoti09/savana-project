@@ -1,0 +1,104 @@
+html, body {
+  overflow-x: hidden;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--bs-primary) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+
+.yoga-card {
+  background: #f3ede6;
+  border-radius: 2px;
+  min-height: 360px;
+  height: 100%;
+  position: relative;     
+  overflow: hidden;
+}
+
+
+.yoga-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 180px;
+  height: 180px;
+  background-image: url("../images/about/shapes\ bg\ 3\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+  opacity: 5;          
+  pointer-events: none;
+}
+
+
+.yoga-image::after {
+  display: none;
+}
+
+
+.yoga-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.yoga-text img {
+  display: block;
+  margin: 0 auto 12px;
+}
+
+
+.yoga-image {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+
+.yoga-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.play-btn {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 56px;
+  height: 56px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,.25);
+  z-index: 2;
+}
+
+
+.yoga-highlight {
+  background-color: #c47a5e;
+  color: #fff;
+
+}
+
+.yoga-highlight::after {
+  opacity: 5;                
+  filter: brightness(1.8);       
+}
+
